@@ -16,5 +16,13 @@
         "add-standard" : "phpcs --config-set installed_paths $(pwd)",
         "docs": "php docs/generate.php",
         "explain": "phpcs -e --standard=Moovly"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
