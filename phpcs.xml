@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<ruleset name="Moovly">
+    <arg name="extensions" value="php"/>
+    <description>PHPCS configuration file with custom Moovly ruleset</description>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Symfony">
+        <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound" />
+        <exclude name="Symfony.Commenting.FunctionComment.MissingParamComment" />
+        <exclude name="Symfony.Commenting.FunctionComment.Missing" />
+        <exclude name="Symfony.Commenting.ClassComment.Missing" />
+        <exclude name="Symfony.Commenting.ClassComment.Blacklisted" />
+        <exclude name="Symfony.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="Symfony.Commenting.FunctionComment.SpacingBeforeTags" />
+        <exclude name="Symfony.Commenting.ClassComment.SpacingBeforeTags" />
+        <exclude name="Symfony.Commenting.License.Warning" />
+        <exclude name="Symfony.Commenting.FunctionComment.MissingParamTag" />
+        <exclude name="Symfony.ControlStructure.YodaConditions.Invalid" />
+    </rule>
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+    </rule>
+</ruleset>
