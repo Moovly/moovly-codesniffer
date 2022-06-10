@@ -10,7 +10,7 @@
     }],
     "require": {
         "php": ">=8.1.0",
-        "squizlabs/php_codesniffer": "^3.8"
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "scripts": {
         "add-standard" : "phpcs --config-set installed_paths $(pwd)",
