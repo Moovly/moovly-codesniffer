@@ -1,9 +1,8 @@
 parameters:
     level: 6
-	paths:
-		- src
-	excludePaths:
-		- tests/*
-		- var/*
+    paths:
+        - src
+    excludePaths:
+        - tests/*
+        - var/*
     checkMissingIterableValueType: false
-
