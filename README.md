@@ -39,9 +39,9 @@ installed phpcs, and this package with PEAR, you can do the following:
 
     phpmd_ruleset.xml
 
-## php-cs-fixer
+## Php-cs-fixer
 
-   .php-cs-fixer.dist.php
+    .php-cs-fixer.dist.php
 
 ## Grumphp
 
