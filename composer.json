@@ -1,8 +1,8 @@
 {
-    "name": "moovly/moovly-codesniffer",
-    "description": "Moovly CodeSniffer Standards",
+    "name": "moovly/php-codestyle-configs",
+    "description": "Moovly PHP Codestyle Standards and configs",
     "type": "phpcodesniffer-standard",
-    "keywords": ["framework", "codesniffer"],
+    "keywords": ["framework", "codesniffer", "phpcs", "phpstan", "phpmd"],
     "license": "MIT",
     "authors" : [{
         "name" : "Niels Corneille",
