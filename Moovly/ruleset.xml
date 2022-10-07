@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
 <ruleset name="Moovly">
     <arg name="extensions" value="php"/>
-    <config name="installed_paths" value="../../slevomat/coding-standard"/>
-    <config name="installed_paths" value="../../../slevomat/coding-standard"/>
     <description>PHPCS configuration file with custom Moovly ruleset</description>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
-    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses"/>
     <rule ref="Symfony">
         <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound" />
         <exclude name="Symfony.Commenting.FunctionComment.MissingParamComment" />
@@ -21,4 +18,5 @@
         <exclude name="Symfony.Functions.Arguments.Invalid" />
         <exclude name="Symfony.Errors.ExceptionMessage.Invalid" />
     </rule>
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses"/>
 </ruleset>
