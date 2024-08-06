@@ -16,3 +16,5 @@ $config->setRules([
     'ordered_imports' => ['sort_algorithm' => 'length'],
 ])
 ->setFinder($finder);
+
+return $config;
