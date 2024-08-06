@@ -9,16 +9,5 @@
     <description>
         Moovly custom php md ruleset
     </description>
-    <rule ref="rulesets/codesize.xml" />
     <rule ref="rulesets/unusedcode.xml" />
-    <rule ref="rulesets/cleancode.xml">
-        <exclude name="MissingImport" />
-        <exclude name="StaticAccess" />
-    </rule>
-    <rule ref="rulesets/cleancode.xml/MissingImport">
-        <properties>
-            <property name="ignore-global" value="true" />
-        </properties>
-    </rule>
 </ruleset>
-
