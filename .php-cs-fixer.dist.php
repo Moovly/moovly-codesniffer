@@ -9,8 +9,12 @@ $config = new PhpCsFixer\Config();
 $config->setRules($ruleSet->getRules());
 $config->setRules([
     '@Symfony' => true,
-    'yoda_style' => false,
-    'phpdoc_no_package' => false,
+    'concat_space' => ['spacing' => 'one'],
+    'yoda_style' => [
+        'equal' => false,
+        'identical' => false,
+        'less_and_greater' => false,
+    ],    'phpdoc_no_package' => false,
     'phpdoc_summary' => false,
     'ordered_imports' => ['sort_algorithm' => 'length'],
 ])
