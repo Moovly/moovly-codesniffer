@@ -9,8 +9,4 @@
     <description>
         Moovly custom php md ruleset
     </description>
-    <rule ref="rulesets/unusedprivatemethod.xml" />
-    <rule ref="rulesets/unusedlocalvariable.xml" />
-    <rule ref="rulesets/missingimport.xml" />
-    <rule ref="rulesets/undefinedvariable.xml" />
 </ruleset>
