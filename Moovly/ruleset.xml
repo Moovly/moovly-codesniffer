@@ -17,6 +17,8 @@
         <exclude name="Symfony.ControlStructure.YodaConditions.Invalid" />
         <exclude name="Symfony.Functions.Arguments.Invalid" />
         <exclude name="Symfony.Errors.ExceptionMessage.Invalid" />
+        <exclude name="Symfony.ControlStructure.IdenticalComparison.Warning" />
+        <exclude name="Generic.Files.LineLength.TooLong" />
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
