@@ -21,7 +21,8 @@
         "explain": "phpcs -e --standard=Moovly"
     },
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^v1.0.0"
+        "dealerdirect/phpcodesniffer-composer-installer": "^v1.0.0",
+        "phpstan/phpstan-doctrine": "^1.5"
     },
     "config": {
         "allow-plugins": {
